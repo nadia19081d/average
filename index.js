@@ -25,7 +25,7 @@ function calificacion(promedio) {
     let izq = document.getElementById('izquierda');
 
     if (promedio > 0 && promedio <= 5) {
-        nuevoParrafo.innerHTML = "Reprobaste hechale ganas 😵" + promedio;
+        nuevoParrafo.innerHTML = "Reprobaste héchale ganas 😵" + promedio;
     } else if (promedio > 5 && promedio <= 8) {
         nuevoParrafo.innerHTML = "Ni bueno ni malo 😼" + promedio;
     } else if (promedio == 9) {
